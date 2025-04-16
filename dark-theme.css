@@ -1,0 +1,59 @@
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-base: #343a40;
+    -fx-background: #212529;
+}
+
+.tab-pane {
+    -fx-background-color: #212529;
+    -fx-padding: 0;
+}
+
+.tab {
+    -fx-background-color: #495057;
+    -fx-background-radius: 5 5 0 0;
+    -fx-padding: 8 15;
+    -fx-font-size: 14px;
+    -fx-text-fill: #f8f9fa;
+}
+
+.tab:selected {
+    -fx-background-color: #0d6efd;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #0d6efd;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0b5ed7;
+}
+
+.hbox {
+    -fx-background-color: #343a40;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.border-pane {
+    -fx-background-color: #212529;
+}
+
+.chart {
+    -fx-background-color: transparent;
+}
+
+.text-field, .password-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #495057;
+    -fx-padding: 8;
+    -fx-background-color: #343a40;
+    -fx-text-fill: #f8f9fa;
+}
